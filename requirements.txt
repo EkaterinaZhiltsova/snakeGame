@@ -6,3 +6,4 @@ pykeyboard==0.1.5
 Pyrogram==2.0.57
 PySocks==1.7.1
 TgCrypto==1.2.3
+python-coveralls
