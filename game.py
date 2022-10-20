@@ -1,6 +1,12 @@
 import pygame
-from pygame.locals import *
 import random
+
+import os
+
+try:
+    os.environ["DISPLAY"]
+except:
+    os.environ["SDL_VIDEODRIVER"] = "dummy"
 
 # Импорт модуля отрисовки
 import drawing
