@@ -6,8 +6,7 @@ import os
 try:
     os.environ["DISPLAY"]
 except:
-    os.environ["SDL_VIDEODRIVER"] = "directfb"
-    # "dummy" или "directfb"
+    os.environ["SDL_VIDEODRIVER"] = "dummy"
 
 # Импорт модуля отрисовки
 import drawing
