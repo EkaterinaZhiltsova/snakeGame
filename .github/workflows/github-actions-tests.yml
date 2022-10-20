@@ -3,7 +3,7 @@ name: GitHub actions tests
 on: [push]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
