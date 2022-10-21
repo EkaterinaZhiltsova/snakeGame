@@ -130,8 +130,6 @@ class TestGame(unittest.TestCase):
                                                 [[400.0, 200.0]]),
                 (0, 0))
 
-    # Блочные/Интеграционные тесты на функцию game_loop (?)
-
     # Интеграционные тесты на функцию independent_snake_movement -> вызываемая функция losing_situation
     # Позитивный тест
     def test_integration_independent_snake_movement_positive(self):
