@@ -18,16 +18,20 @@ def random_food(controlled_snake_list, competitor_snake_list, width, height)
 
 
 #### \# Проверка окончания игры (проигрышной ситуации врезания в границы поля)
+```python
 def losing_situation(x, y)  
-return True/False
+    return True/False
+```
 
 Аргументы функции: x – координата x змейки(головы) на поле, y – координата y змейки(головы) на поле
 
 Возвращаемые значения: True – проигрыш (окончание игры)/False – игра продолжается (расположение змейки на данном шаге не проигрышное)
 
 #### \# Проверка столкновения (проигрышной ситуации) змейки с самой собой или с противником (и наоборот)
+```python
 def collision_check(controlled_snake_list, competitor_snake_list)  
-return True/False
+    return True/False
+```
 
 Аргументы функции: 
 * controlled_snake_list – список (list, в котором каждый элемент – это list [x, y]) координат расположения всех блоков тела управляемой змеи (последний элемент списка [-1] – голова змеи)
@@ -36,8 +40,10 @@ return True/False
 Возвращаемые значения: True – проигрыш (окончание игры), одна из змеек столкнулась с самой собой/с другой змейкой/False – игра продолжается (расположение змейки на данном шаге не проигрышное, столкновения нет)
 
 #### \# Проверка нахождения змейкой еды (увеличение счета)
+```python
 def find_food(food_x, food_y, length_of_controlled_snake, length_of_competitor_snake, controlled_snake_list, competitor_snake_list)  
-return True/False, length_of_controlled_snake, length_of_competitor_snake
+    return True/False, length_of_controlled_snake, length_of_competitor_snake
+```
 
 Аргументы функции: 
 * food_x – координата x расположения еды (яблока) на поле, 
@@ -53,8 +59,10 @@ return True/False, length_of_controlled_snake, length_of_competitor_snake
 * length_of_competitor_snake – длина змеи-противника (количество блоков в теле) (int)
 
 #### \# Перемещение змеи на шаг (всех блоков тела) в координатах и увеличение длины, если змея заработала очко
+```python
 def move_snake_blocks(snake_list, x_coord, y_coord, length_of_snake)  
-return snake_list
+    return snake_list
+```
 
 Аргументы функции: 
 * snake_list – список (list, в котором каждый элемент – это list [x, y]) координат текущего расположения всех блоков тела змеи (последний элемент списка – голова змеи), 
@@ -65,8 +73,10 @@ return snake_list
 Возвращаемые значения: snake_list – список (list, в котором каждый элемент – это list [x, y]) координат расположения всех блоков тела змеи (последний элемент списка [-1] – голова змеи)
 
 #### \# Расчет следующего шага змеи-соперника
+```python
 def independent_snake_movement(food_x, food_y, competitor_snake_list, controlled_snake_list)  
-return x1_change, y1_change
+    return x1_change, y1_change
+```
 
 Аргументы функции:
 * food_x – координата x расположения еды на поле, 
@@ -77,7 +87,9 @@ return x1_change, y1_change
 Возвращаемые значения: x1_change – вектор перемещения змеи-противника(головы) по оси x, y1_change – вектор перемещения змеи-противника(головы) по оси y
 
 #### \# Основной цикл игры
+```python
 def game_loop(game_over=False)
+```
 
 Аргументы функции: game_over=False (дефолтное значение переменной – игра не окончена)
 
