@@ -38,7 +38,7 @@ def random_food(controlled_snake_list, competitor_snake_list, width, height):
 # Проверка окончания игры (проигрышной ситуации врезания в границы поля)
 def losing_situation(x, y):
     if x >= dis_width or x < 0 or y >= dis_height or y < 0:
-        return True
+        return False
     else:
         return False
 
