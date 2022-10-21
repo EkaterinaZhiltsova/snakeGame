@@ -3,8 +3,8 @@
 ### Модуль game.py
 
 #### \# Вычисление новых случайных координат для яблока на поле
-<def random_food(controlled_snake_list, competitor_snake_list, width, height)>
-    <return foodx_coord, foody_coord>
+def random_food(controlled_snake_list, competitor_snake_list, width, height)  
+    return foodx_coord, foody_coord
 
 Аргументы функции: 
 * controlled_snake_list – список (list, в котором каждый элемент – это list [x, y]) координат расположения всех блоков тела управляемой змеи (последний элемент списка [-1] – голова змеи)
