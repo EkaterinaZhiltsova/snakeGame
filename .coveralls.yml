@@ -1,6 +1,6 @@
-# service_name: travis-pro
-# repo_token: 6LTEtUxT9P2ZrQR6VydhTJkq48bqlJcVf
-
-repo_token: abcdef1234569abdcef
 service_name: travis-pro
+repo_token: 6LTEtUxT9P2ZrQR6VydhTJkq48bqlJcVf
+
+# repo_token: abcdef1234569abdcef
+# service_name: travis-pro
 parallel: true # if the CI is running your build in parallel
