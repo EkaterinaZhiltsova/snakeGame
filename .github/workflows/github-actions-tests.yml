@@ -23,7 +23,7 @@ jobs:
           pip install pytest-cov
           pytest test_unittest.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
 
-
+'''
   sonarcloud-check:
     needs: test
     runs-on: ubuntu-latest
@@ -74,3 +74,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           sonar-scanner --define sonar.host.url="${{ env.SONAR_SERVER_URL }}" --define sonar.cfamily.build-wrapper-output="${{ env.BUILD_WRAPPER_OUT_DIR }}"
+'''
