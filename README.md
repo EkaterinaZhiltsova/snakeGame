@@ -9,3 +9,4 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=EkaterinaZhiltsova_snakeGame&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=EkaterinaZhiltsova_snakeGame)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=EkaterinaZhiltsova_snakeGame&metric=bugs)](https://sonarcloud.io/summary/new_code?id=EkaterinaZhiltsova_snakeGame)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=EkaterinaZhiltsova_snakeGame&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=EkaterinaZhiltsova_snakeGame)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=EkaterinaZhiltsova_snakeGame&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=EkaterinaZhiltsova_snakeGame)
