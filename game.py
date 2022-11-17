@@ -40,7 +40,7 @@ def losing_situation(x, y):
     if x >= dis_width or x < 0 or y >= dis_height or y < 0:
         return True
     else:
-        return True    # False
+        return False    # False
 
 
 # Проверка столкновения (проигрышной ситуации) змейки с самой собой или с противником (и наоборот)
