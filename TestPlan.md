@@ -2,6 +2,8 @@
 ## Описание функций
 ### Модуль game.py
 
+
+
 #### \# Вычисление новых случайных координат для яблока на поле
 ```python
 def random_food(controlled_snake_list, competitor_snake_list, width, height)  
